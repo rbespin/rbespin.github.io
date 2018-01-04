@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Experimental Website</title>
+	<style type="text/css">
+		#websitetitle{
+			width: 100%;
+			height: 85px;
+			position: fixed;
+			background-color: #FBFBFB;
+			z-index: 99;
+		}
+		body{
+			padding: 0;
+			margin:0;
+		}
+		#sidebar{
+			position: fixed;
+			box-sizing: border-box;
+			width:250px;
+			top:85px;
+			left: 0px;
+			height: calc(100% + 50px);
+			background-color: #505361; 
+		}
+		#main{
+			position: absolute;
+			box-sizing: border-box;
+			top:85px;
+			left:250px;
+			height:100%;
+			width: calc(100% - 250px);
+			padding: 25px;
+			background-color: #F5F5F5;
+			line-height: 2;
+		}
+		p{
+			text-indent: 25px;
+		}
+		.p2{
+			text-align: center;
+		}
+		.p3{
+			margin-left: 25px;
+			padding-top: 10px;
+		}
+		#searchbar{
+			position: absolute;
+			top:40px;
+			margin-left: calc(100% - 240px);
+			height: 20px;
+			border: 1px solid black;
+			padding: 5px;
+			background-color: #F5F5F5;
+			z-index: 99;
+		}
+		.p4{
+			text-align: right;
+			margin-bottom: 50px;
+		}
+		#link1{
+			position: absolute;
+			top: 40px;
+			left: 450px;
+			width:89px;
+			border: 1px solid black;
+			padding: 5px;
+			background-color: #F5F5F5;
+			z-index: 99;
+		}
+		#link2{
+			position: absolute;
+			top: 40px;
+			left: 550px;
+			width:89px;
+			border: 1px solid black;
+			padding: 5px;
+			background-color: #F5F5F5;
+			z-index: 99;
+		}
+		#link3{
+			position: absolute;
+			top: 40px;
+			left: 650px;
+			width:89px;
+			border: 1px solid black;
+			padding: 5px;
+			background-color: #F5F5F5;
+			z-index: 99;
+		}
+		#contents{
+			list-style-type: circle;
+			margin-left: 25px;
+			color:#F5F5F5;
+			margin-right: 25px;
+		}
+		.tableofcontents{
+			text-align: center;
+			color: #F5F5F5;
+		}
+		#contents a:link{color: #F5F5F5; text-decoration: none;}
+		#contents a:visited{color: #F5F5F5;}
+		#contents a:hover{color: blue;}
+		#contents a:active{color: red;}
+		.navbar {
+		    background-color: #333;
+		    overflow: hidden;
+		    position: fixed;
+		    bottom: 0;
+		    width: 100%;
+		    margin-left: -25px;
+		    margin-right: 10px;
+		    padding: 10px 12px;
+		}
+		.navbar a{
+			color:white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+			font-size: 17px;
+			margin-right: 100px;
+		}
+		.navbar a:hover {
+		    background-color: #ddd;
+		    color: black;
+		}
+		.navbar a.active {
+		    background-color: #4CAF50;
+		    color: white;
+		}
+		img{
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+		}
+		span{
+			padding: 20px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="websitetitle">
+		<h2 class="p3">DANK WEBSITE TITLE</h2>
+		<div id="searchbar">
+			<form class="p4">
+				Search: <input type="text" name="Search">
+			</form>
+		</div>
+		<div id="link1">
+			<a href="">Link 1</a>
+		</div>
+		<div id="link2">
+			<a href="">Link 2</a>
+		</div>
+		<div id="link3">
+			<a href="">Link 3</a>
+		</div>
+	</div>
+
+	<div id="sidebar">
+		<div>
+			<h2 class="tableofcontents">Table of Contents</h2>
+			<hr>
+			<ul id="contents">
+				<br>
+				<br>
+				<li><a href="">Content Link 1</a></li>
+				<br><br>
+				<li><a href="">Content Link 2</a></li>
+				<br><br>
+				<li><a href="">Content Link 3</a></li>
+				<br><br>
+				<li><a href="">Content Link 4</a></li>
+				<br><br>
+				<li><a href="">Content Link 5</a></li>
+				<br><br>
+			</ul>
+			<span class="tableofcontents">What instrument shall you play?</span>
+			<br><br>
+			<form class="tableofcontents">
+				<select name="activities">
+					<option value="play">play the guitar</option>
+					<option value="keytar">play the keytar</option>
+					<option value="piano">play the piano</option>
+					<option value="flute">play the skin flute</option>
+					<option value="bass">play the bass</option>
+				</select>
+			</form>
+			<br><br>
+			<form class="tableofcontents">
+				<textarea name="bio">
+					Type something here
+				</textarea>
+			</form>
+		</div>
+	</div>
+	<div id="main">
+		<h2 class="p2">SUPER BIG HEADLINE</h2>
+		<h4 class="p2">Written by: dank</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue risus ac enim elementum, a porttitor dolor bibendum. Vivamus in justo a mauris ultricies fermentum. Curabitur sed pretium ipsum. Aliquam quis commodo tellus, non faucibus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin fringilla dapibus. Nulla sit amet elit lacinia, lobortis arcu sed, lobortis sem. Mauris vestibulum diam id scelerisque maximus. Ut sed tempor lectus. Sed in eros accumsan enim facilisis venenatis. Aliquam ac nunc lectus. Aenean velit nunc, tincidunt quis ullamcorper in, mattis in risus.</p>
+
+		<p>Sed nec gravida nibh, sed placerat augue. Curabitur pellentesque ipsum lacinia lorem pretium, sit amet facilisis elit sollicitudin. Maecenas vulputate egestas ante, a rutrum ante rutrum eget. Curabitur mollis vehicula nunc sed lobortis. Mauris lectus nibh, ornare dictum lectus vel, tincidunt pharetra libero. Phasellus eu aliquam tortor. Aliquam vulputate velit eget interdum fringilla. Aliquam erat volutpat. Nullam id mi purus. In euismod vel dolor quis eleifend. Quisque finibus tellus nec est tincidunt, eu sollicitudin ligula auctor.</p>
+
+		<p>Nam mattis vitae neque eget condimentum. Morbi sit amet pulvinar tortor. Integer volutpat euismod sapien sed rutrum. Nam venenatis lorem eu elit consequat, nec congue metus bibendum. Donec commodo feugiat arcu sed tristique. Vestibulum sit amet augue ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec feugiat ac magna eget dignissim. Donec nunc dui, facilisis non mattis non, euismod sed ligula. Nam nisi ligula, rutrum ac nibh sed, eleifend vulputate ante. Duis sed viverra ligula. Mauris sit amet pellentesque eros, ac pretium libero. Cras dapibus non sapien non pulvinar. Praesent ipsum metus, laoreet sit amet lacinia eu, convallis in felis.</p>
+
+		<p>Cras et dignissim velit. Nunc efficitur accumsan orci a viverra. Aliquam vehicula ligula sit amet nisi vehicula, at vulputate nunc congue. Mauris porta risus vitae faucibus aliquam. Vivamus neque enim, cursus at purus suscipit, feugiat malesuada diam. Phasellus pulvinar fringilla posuere. Nullam a justo sapien. Vestibulum id elit vitae arcu rhoncus iaculis. Nullam dignissim placerat enim nec egestas. Morbi quis velit quis dui ornare aliquam. Donec ex odio, tempor a erat et, tristique dignissim mauris.</p>
+
+		<p>Mauris porta sapien ut blandit elementum. Nullam suscipit erat eget dolor aliquet pretium. Quisque ac fermentum magna, id tincidunt ante. Quisque semper id tellus et bibendum. Praesent aliquam metus eu enim elementum gravida ac in diam. Maecenas tempus eros eget sodales pellentesque. Proin vitae cursus est, eu vulputate ipsum. Sed a volutpat dui, vel sagittis arcu. Nullam ut gravida risus, ut bibendum enim. Aenean efficitur, dui et lobortis egestas, tellus leo aliquam eros, eu accumsan augue neque eget sapien. Sed rhoncus augue id urna finibus rutrum. Sed cursus sem neque, et hendrerit diam dictum in.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue risus ac enim elementum, a porttitor dolor bibendum. Vivamus in justo a mauris ultricies fermentum. Curabitur sed pretium ipsum. Aliquam quis commodo tellus, non faucibus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin fringilla dapibus. Nulla sit amet elit lacinia, lobortis arcu sed, lobortis sem. Mauris vestibulum diam id scelerisque maximus. Ut sed tempor lectus. Sed in eros accumsan enim facilisis venenatis. Aliquam ac nunc lectus. Aenean velit nunc, tincidunt quis ullamcorper in, mattis in risus.</p>
+
+		<p>Sed nec gravida nibh, sed placerat augue. Curabitur pellentesque ipsum lacinia lorem pretium, sit amet facilisis elit sollicitudin. Maecenas vulputate egestas ante, a rutrum ante rutrum eget. Curabitur mollis vehicula nunc sed lobortis. Mauris lectus nibh, ornare dictum lectus vel, tincidunt pharetra libero. Phasellus eu aliquam tortor. Aliquam vulputate velit eget interdum fringilla. Aliquam erat volutpat. Nullam id mi purus. In euismod vel dolor quis eleifend. Quisque finibus tellus nec est tincidunt, eu sollicitudin ligula auctor.</p>
+
+		<p>Nam mattis vitae neque eget condimentum. Morbi sit amet pulvinar tortor. Integer volutpat euismod sapien sed rutrum. Nam venenatis lorem eu elit consequat, nec congue metus bibendum. Donec commodo feugiat arcu sed tristique. Vestibulum sit amet augue ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec feugiat ac magna eget dignissim. Donec nunc dui, facilisis non mattis non, euismod sed ligula. Nam nisi ligula, rutrum ac nibh sed, eleifend vulputate ante. Duis sed viverra ligula. Mauris sit amet pellentesque eros, ac pretium libero. Cras dapibus non sapien non pulvinar. Praesent ipsum metus, laoreet sit amet lacinia eu, convallis in felis.</p>
+		<img src="leomessi.jpg">
+
+		<p>Cras et dignissim velit. Nunc efficitur accumsan orci a viverra. Aliquam vehicula ligula sit amet nisi vehicula, at vulputate nunc congue. Mauris porta risus vitae faucibus aliquam. Vivamus neque enim, cursus at purus suscipit, feugiat malesuada diam. Phasellus pulvinar fringilla posuere. Nullam a justo sapien. Vestibulum id elit vitae arcu rhoncus iaculis. Nullam dignissim placerat enim nec egestas. Morbi quis velit quis dui ornare aliquam. Donec ex odio, tempor a erat et, tristique dignissim mauris.</p>
+
+		<p>Mauris porta sapien ut blandit elementum. Nullam suscipit erat eget dolor aliquet pretium. Quisque ac fermentum magna, id tincidunt ante. Quisque semper id tellus et bibendum. Praesent aliquam metus eu enim elementum gravida ac in diam. Maecenas tempus eros eget sodales pellentesque. Proin vitae cursus est, eu vulputate ipsum. Sed a volutpat dui, vel sagittis arcu. Nullam ut gravida risus, ut bibendum enim. Aenean efficitur, dui et lobortis egestas, tellus leo aliquam eros, eu accumsan augue neque eget sapien. Sed rhoncus augue id urna finibus rutrum. Sed cursus sem neque, et hendrerit diam dictum in.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In congue risus ac enim elementum, a porttitor dolor bibendum. Vivamus in justo a mauris ultricies fermentum. Curabitur sed pretium ipsum. Aliquam quis commodo tellus, non faucibus quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin fringilla dapibus. Nulla sit amet elit lacinia, lobortis arcu sed, lobortis sem. Mauris vestibulum diam id scelerisque maximus. Ut sed tempor lectus. Sed in eros accumsan enim facilisis venenatis. Aliquam ac nunc lectus. Aenean velit nunc, tincidunt quis ullamcorper in, mattis in risus.</p>
+
+		<p>Sed nec gravida nibh, sed placerat augue. Curabitur pellentesque ipsum lacinia lorem pretium, sit amet facilisis elit sollicitudin. Maecenas vulputate egestas ante, a rutrum ante rutrum eget. Curabitur mollis vehicula nunc sed lobortis. Mauris lectus nibh, ornare dictum lectus vel, tincidunt pharetra libero. Phasellus eu aliquam tortor. Aliquam vulputate velit eget interdum fringilla. Aliquam erat volutpat. Nullam id mi purus. In euismod vel dolor quis eleifend. Quisque finibus tellus nec est tincidunt, eu sollicitudin ligula auctor.</p>
+
+		<p>Nam mattis vitae neque eget condimentum. Morbi sit amet pulvinar tortor. Integer volutpat euismod sapien sed rutrum. Nam venenatis lorem eu elit consequat, nec congue metus bibendum. Donec commodo feugiat arcu sed tristique. Vestibulum sit amet augue ipsum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Donec feugiat ac magna eget dignissim. Donec nunc dui, facilisis non mattis non, euismod sed ligula. Nam nisi ligula, rutrum ac nibh sed, eleifend vulputate ante. Duis sed viverra ligula. Mauris sit amet pellentesque eros, ac pretium libero. Cras dapibus non sapien non pulvinar. Praesent ipsum metus, laoreet sit amet lacinia eu, convallis in felis.</p>
+
+		<p>Cras et dignissim velit. Nunc efficitur accumsan orci a viverra. Aliquam vehicula ligula sit amet nisi vehicula, at vulputate nunc congue. Mauris porta risus vitae faucibus aliquam. Vivamus neque enim, cursus at purus suscipit, feugiat malesuada diam. Phasellus pulvinar fringilla posuere. Nullam a justo sapien. Vestibulum id elit vitae arcu rhoncus iaculis. Nullam dignissim placerat enim nec egestas. Morbi quis velit quis dui ornare aliquam. Donec ex odio, tempor a erat et, tristique dignissim mauris.</p>
+
+		<p>Mauris porta sapien ut blandit elementum. Nullam suscipit erat eget dolor aliquet pretium. Quisque ac fermentum magna, id tincidunt ante. Quisque semper id tellus et bibendum. Praesent aliquam metus eu enim elementum gravida ac in diam. Maecenas tempus eros eget sodales pellentesque. Proin vitae cursus est, eu vulputate ipsum. Sed a volutpat dui, vel sagittis arcu. Nullam ut gravida risus, ut bibendum enim. Aenean efficitur, dui et lobortis egestas, tellus leo aliquam eros, eu accumsan augue neque eget sapien. Sed rhoncus augue id urna finibus rutrum. Sed cursus sem neque, et hendrerit diam dictum in.</p>
+		
+		<form>
+			Password: <input type="Password" name="pword">
+			Now submit a file!
+			<input type="file" name="robertfile">
+		</form>
+		<br>
+		<form>
+			Username: <input type="text" name="username">
+			Password: <input type="Password" name="pass">
+			<input type="submit" value="Submit!">
+		</form>
+		<br><br>
+
+		<div class="navbar">
+			<a href="">Top of Page</a>
+			<a href="" class="p5">Next Page<span>&#8594;</span></a>
+		</div>
+	</div>
+</body>
+</html>
