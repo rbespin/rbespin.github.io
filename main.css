@@ -1,36 +1,49 @@
 *{
+	font-family: calibri;
 	box-sizing: border-box;
 }
-header{
-	padding: 0px;
-	margin: 0px;
-	line-height: 20px;
+body{
+	padding: 2em;
+	margin: 0;
+	line-height: 1.5;
+}
+.title-header h1{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	display: inline-block;
+}
+.title-header h1 hr{
+	margin: 0;
+	padding: 0;
+}
+.title-header{
 	text-align: center;
 }
-body{
-	background-color: #EEEEEE;
+body header{
+	padding: 0;
+	margin: 0;
 }
-header hr{
-	width:50%;
+body main{
+	padding: 3em;
+	font-size: 18px;
+	padding-top: 1em;
 }
-header h3{
-	font-weight: normal;
+body main h2{
+	padding: 0;
+	margin: 0;
 }
-li h4{
-	font-weight:normal;
+.res-section{
+	padding: 1em;
+	margin-bottom: 1em;
 }
-
-section h2{
-	padding:5px;
-	margin-left: 35px;
-	background-color: black;
-	color:white;
-	width:200px;
-}
-section p{
+.res-section p{
+	margin-left: 1em;
 	text-indent: 25px;
-	margin:30px;
 }
-.footer_margin{
-	margin-bottom: 100px;
+.res-section h2{
+	text-align: center;
+}
+.exp-p{
+	text-indent: 0;
 }
