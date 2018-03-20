@@ -1,21 +1,27 @@
 *{
-	font-family: calibri;
+	font-family: Times New Roman;
 	box-sizing: border-box;
 }
 body{
 	padding: 2em;
 	margin: 0;
-	line-height: 1.5;
+	line-height: 1.2;
 }
 .title-header h1{
 	margin: 0;
 	padding: 0;
 	text-align: center;
 	display: inline-block;
+
 }
 .title-header h1 hr{
 	margin: 0;
 	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+	text-decoration: underline;
 }
 .title-header{
 	text-align: center;
@@ -34,7 +40,7 @@ body main h2{
 	margin: 0;
 }
 .res-section{
-	padding: 1em;
+
 	margin-bottom: 1em;
 }
 .res-section p{
@@ -46,4 +52,54 @@ body main h2{
 }
 .exp-p{
 	text-indent: 0;
+}
+.githubLink{
+	text-align: right;
+}
+.res-section div{
+	color:#00C8FD;
+}
+.res-section .left ul li{
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+.res-section .left{
+	width:30%;
+	display: inline-block;
+		vertical-align: top;
+}
+.res-section .center ul li{
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+}
+.skills{
+	text-align: left;
+}
+.skills h2{
+	text-align: left;
+		color: black;
+		padding-bottom: 1em;
+}
+.wrapperSkills{
+	text-align: center;
+	width: 80%;
+}
+.res-section .center{
+	width: 30%;
+	display: inline-block;	
+	margin:0;
+}
+.res-section .right{
+	width: 30%;
+	display: inline-block;	
+	margin:0;
+	text-align: center;
+		vertical-align: top;
+}
+.res-section .right ul li{
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
 }
