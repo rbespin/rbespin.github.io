@@ -96,6 +96,16 @@ body main h2{
 	display: inline-block;	
 	margin:0;
 }
+
+.res-section .git{
+	margin: 0;
+	width: 100%;
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+
+}
 .res-section .right{
 	width: 30%;
 	display: inline-block;	
