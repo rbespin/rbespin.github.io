@@ -59,7 +59,10 @@ body main h2{
 	text-align: right;
 }
 .res-section div{
-	color:#00C8FD;
+	/*color:#00C8FD; */
+	color:black;
+	font-weight: bold;
+	text-align: left;
 }
 .res-section .left ul li{
 	color: black;
