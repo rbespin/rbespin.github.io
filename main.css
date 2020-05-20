@@ -103,7 +103,7 @@ body main h2{
 .res-section .git{
 	margin: 0;
 	width: 100%;
-	padding-top: 2em;
+	padding-top: 3em; 
 	display: inline-block;
 	color: black;
 	text-decoration: none;
@@ -123,6 +123,6 @@ body main h2{
 	list-style-type: none;
 }
 footer{
-	padding: 2em;
+	/*padding: 2em; */
 	margin: 0;
 }
